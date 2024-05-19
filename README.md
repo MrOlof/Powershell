@@ -58,12 +58,11 @@ Here are some of the key scripts available in this repository:
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/MrOlof/Powershell.git)
     ```
 
 2. **Run a Script**:
-    Open a PowerShell terminal and navigate to the directory of the script you want to run. Execute the script with the appropriate parameters, for example:
+    Open a PowerShell terminal preferably with Powershell ISE and navigate to the directory of the script you want to run. Execute the script with the appropriate parameters, for example:
     ```powershell
     .\scripts\Backup-Database.ps1 -DatabaseName "YourDatabase" -BackupPath "C:\Backups"
     ```
@@ -84,4 +83,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Thank you for visiting my PowerShell repository. I hope you find these scripts useful!

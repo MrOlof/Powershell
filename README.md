@@ -17,7 +17,7 @@ This repository contains a variety of PowerShell scripts designed to automate an
 
 1. **Clone the Repository**:
     ```sh
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/MrOlof/Powershell.git)
+    git clone https://github.com/MrOlof/Powershell.git
     ```
 
 2. **Run a Script**:

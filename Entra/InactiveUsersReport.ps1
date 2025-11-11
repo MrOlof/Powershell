@@ -265,7 +265,7 @@ function Write-InactiveUsersHtml {
     <label class="switch-lbl"><span class="switch"><input id="onlyEnabled" type="checkbox" onchange="applyFilters()"><span class="slider"></span></span> Only Enabled</label>
     <label class="switch-lbl"><span class="switch"><input id="onlyDisabled" type="checkbox" onchange="applyFilters()"><span class="slider"></span></span> Only Disabled</label>
     <label class="switch-lbl"><span class="switch"><input id="onlyLicensed" type="checkbox" onchange="applyFilters()"><span class="slider"></span></span> Only Licensed</label>
-    <label class="switch-lbl"><span class="switch"><input id="hideNever" type="checkbox" onchange="applyFilters()"><span class="slider"></span></span> Hide “Never Logged In”</label>
+    <label class="switch-lbl"><span class="switch"><input id="hideNever" type="checkbox" onchange="applyFilters()"><span class="slider"></span></span> Hide Never Logged In</label>
     <div class="btn-group">
       <button class="btn" onclick="exportCSV()">Export CSV</button>
       <button class="btn" onclick="openModal()">Expand</button>

@@ -30,7 +30,6 @@
 
 #>
 
-
 param(
     [Parameter(
         Mandatory = $true,
@@ -254,9 +253,9 @@ function Write-InactiveUsersHtml {
   </div>
 
   <div class="cards">
-    <div class="card"><div class="t">Interactive Sign-ins ≤ 30 days</div><div class="v" id="v_30">$int30</div></div>
-    <div class="card"><div class="t">Interactive Sign-ins 31–90 days</div><div class="v" id="v_90">$int90</div></div>
-    <div class="card"><div class="t">Interactive Sign-ins > 90 days</div><div class="v" id="v_90p">$int90plus</div></div>
+    <div class="card"><div class="t">Interactive Sign-ins &le; 30 days</div><div class="v" id="v_30">$int30</div></div>
+           <div class="card"><div class="t">Interactive Sign-ins 31-90 days</div><div class="v" id="v_90">$int90</div></div>
+           <div class="card"><div class="t">Interactive Sign-ins &gt; 90 days</div><div class="v" id="v_90p">$int90plus</div></div>
   </div>
 
   <div class="filters">
@@ -275,12 +274,12 @@ function Write-InactiveUsersHtml {
 
   <div><span class="badge">Preset filters:</span>
     <button class="btn" onclick="setPreset('all')">All</button>
-    <button class="btn" onclick="setPreset('int30')">Int ≤ 30d</button>
-    <button class="btn" onclick="setPreset('int90')">Int 31–90d</button>
-    <button class="btn" onclick="setPreset('int90p')">Int > 90d</button>
-    <button class="btn" onclick="setPreset('non30')">Non-Int ≤ 30d</button>
-    <button class="btn" onclick="setPreset('non90')">Non-Int 31–90d</button>
-    <button class="btn" onclick="setPreset('non90p')">Non-Int > 90d</button>
+           <button class="btn" onclick="setPreset('int30')">Int &le; 30d</button>
+           <button class="btn" onclick="setPreset('int90')">Int 31&ndash;90d</button>
+           <button class="btn" onclick="setPreset('int90p')">Int &gt; 90d</button>
+           <button class="btn" onclick="setPreset('non30')">Non-Int &le; 30d</button>
+           <button class="btn" onclick="setPreset('non90')">Non-Int 31&ndash;90d</button>
+           <button class="btn" onclick="setPreset('non90p')">Non-Int &gt; 90d</button>
   </div>
 
   <div class="colpicker" id="colpicker">
